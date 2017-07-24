@@ -49,6 +49,7 @@ body {
 
 #spinner > .body > img {
     width: 100%;
+    pointer-events: none;
 }
 
 #spinner > .footer {
