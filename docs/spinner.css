@@ -29,13 +29,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    background: hotpink;
     background: linear-gradient(to top, rgba(30, 40, 153, 0), rgba(30, 87, 10, 0.8), rgba(200, 87, 153, 1),
-    rgba(255, 100, 153, 1), rgba(41, 137, 216, 1), rgba(255, 255, 0, 1), rgba(70, 255, 10, 1),
-    rgba(150, 230, 153, 1), rgba(200, 100, 20, 1));
-    background: -webkit-linear-gradient(to top, rgba(30, 40, 153, 0), rgba(30, 87, 10, 0.8), rgba(200, 87, 153, 1),
-    rgba(255, 100, 153, 1), rgba(41, 137, 216, 1), rgba(255, 255, 0, 1), rgba(70, 255, 10, 1),
-    rgba(150, 230, 153, 1), rgba(200, 100, 20, 1));
+rgba(255, 100, 153, 1), rgba(41, 137, 216, 1), rgba(255, 255, 0, 1), rgba(70, 255, 10, 1),
+rgba(150, 230, 153, 1), rgba(200, 100, 20, 1));
+    background-color: hotpink;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #0B2349;
@@ -49,7 +46,6 @@ body {
 
 #spinner > .body > img {
     width: 100%;
-    pointer-events: none;
 }
 
 #spinner > .footer {
