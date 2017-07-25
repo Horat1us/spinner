@@ -6,7 +6,6 @@ body {
     width: 550px;
     background-color: aliceblue;
     border: 1px solid black;
-    height: 790px;
     margin: calc((100vh - 790px) / 2) auto;
 
     -webkit-user-select: none;
