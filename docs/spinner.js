@@ -87,7 +87,7 @@ Spinner.prototype = {
         var inertness = 0.5 + (1 / Math.abs(2000 / delta));
 
         var direction;
-        if (xDiff > yDiff) {
+        if (Math.abs(xDiff) > Math.abs(yDiff)) {
             direction = xDiff > 0 ? -1 : 1;
         } else {
             direction = yDiff > 0 ? -1 : 1;
